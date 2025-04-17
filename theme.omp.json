@@ -69,7 +69,7 @@
             },
             "style": "diamond",
             "trailing_diamond": "\ue0b0",
-            "template": " \ue0b1 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+            "template": "<#000000>\ue0b1 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
             "type": "python"
           },
           {
