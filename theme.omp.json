@@ -65,6 +65,8 @@
             "foreground": "#100e23",
             "powerline_symbol": "\ue0b0",
             "style": "powerline",
+            "background": "#272727",
+            "foreground": "#ffcc00",
             "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
             "type": "python"
           },
@@ -79,31 +81,6 @@
             "template": "<#000000>\ue0b1 </>{{ .FormattedMs }}s ",
             "trailing_diamond": "\ue0b0",
             "type": "executiontime"
-          }
-        ],
-        "type": "prompt"
-      },
-      {
-        "alignment": "right",
-        "segments": [
-          {
-            "background": "#272727",
-            "foreground": "#43CCEA",
-            "leading_diamond": "\ue0c5",
-            "style": "diamond",
-            "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}<transparent> / </>{{ .HostName }}",
-            "type": "session"
-          },
-          {
-            "background": "#272727",
-            "foreground": "#43CCEA",
-            "properties": {
-              "time_format": "3:04:05 PM"
-            },
-            "style": "diamond",
-            "template": "<#000000> \ue31e\uf0fb </>{{ .CurrentDate | date .Format }} ",
-            "trailing_diamond": "\ue0c5",
-            "type": "time"
           }
         ],
         "type": "prompt"
