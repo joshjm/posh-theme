@@ -61,10 +61,14 @@
             "type": "git"
           },
           {
-            "powerline_symbol": "\ue0b0",
-            "style": "powerline",
             "background": "#272727",
             "foreground": "#ffcc00",
+            "properties": {
+              "style": "dallas",
+              "threshold": 0
+            },
+            "style": "diamond",
+            "trailing_diamond": "\ue0b0",
             "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
             "type": "python"
           },
