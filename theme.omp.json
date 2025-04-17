@@ -62,7 +62,7 @@
           },
           {
             "background": "#272727",
-            "foreground": "#ffcc00",
+            "foreground": "#ff8800",
             "properties": {
               "style": "dallas",
               "threshold": 0
