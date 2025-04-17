@@ -5,38 +5,6 @@
         "alignment": "left",
         "segments": [
           {
-            "background": "#000000",
-            "foreground": "#dd1e1e",
-            "style": "plain",
-            "template": " \u26a1",
-            "type": "root"
-          },
-          {
-            "background": "#000000",
-            "foreground": "#ffffff",
-            "properties": {
-              "alpine": "\uf300",
-              "arch": "\uf303",
-              "centos": "\uf304",
-              "debian": "\uf306",
-              "elementary": "\uf309",
-              "fedora": "\uf30a",
-              "gentoo": "\uf30d",
-              "linux": "\ue712",
-              "macos": "\ue711",
-              "manjaro": "\uf312",
-              "mint": "\uf30f",
-              "opensuse": "\uf314",
-              "raspbian": "\uf315",
-              "ubuntu": "\uf31c",
-              "windows": "\ue62a",
-              "wsl": "\ue712"
-            },
-            "style": "plain",
-            "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}} ",
-            "type": "os"
-          },
-          {
             "background": "#272727",
             "foreground": "#43CCEA",
             "properties": {
@@ -62,7 +30,7 @@
           },
           {
             "background": "#272727",
-            "foreground": "#ff8800",
+            "foreground": "#Ffd343",
             "properties": {
               "style": "dallas",
               "threshold": 0
